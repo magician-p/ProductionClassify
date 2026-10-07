@@ -6,7 +6,7 @@ if __name__ == '__main__':
     if not __package__:
         sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-    parser = ArgumentParser()
+    parser = ArgumentParser(usage='python -m src.main <action> [options]')
     parser.add_argument('action', choices=['preprocess', 'train', 'predict', 'evaluate', 'serve'])
 
     args = parser.parse_args()

@@ -16,8 +16,8 @@ data/processed/*
 !/pretrained/.gitkeep
 
 # 忽略日志
-/logs/train/*
-!/logs/train/.gitkeep
+/logs/*
+!/logs/.gitkeep
 
 # 忽略python运行文件
 __pycache__/

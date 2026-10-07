@@ -1,0 +1,23 @@
+# 忽略配置文件
+.vscode/
+
+# 忽略处理后的数据
+data/processed/*
+!data/processed/.gitkeep
+
+# 忽略训练模型
+/checkpoint/best/*
+!/checkpoint/best/.gitkeep
+/checkpoint/last/*
+!/checkpoint/last/.gitkeep
+
+# 忽略预训练模型
+/pretrained/*
+!/pretrained/.gitkeep
+
+# 忽略日志
+/logs/train/*
+!/logs/train/.gitkeep
+
+# 忽略python运行文件
+__pycache__/

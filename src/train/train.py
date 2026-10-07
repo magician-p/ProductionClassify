@@ -21,7 +21,7 @@ class TrainConfig:
     lr: float = 1e-4
     model_path: str = '/models'
     log_dir: Path = Path('/logs')
-    save_steps: int = 10
+    save_steps: int = SAVE_STEPS
     score: Literal['loss', 'accuracy', 'precision', 'recall', 'f1'] = 'loss'
     patience: int = 3
     cast_enable: bool = True

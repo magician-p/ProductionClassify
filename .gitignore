@@ -1,5 +1,6 @@
 # 忽略配置文件
-.vscode/
+.vscode/settings.json
+!/.vscode/launch.json
 
 # 忽略处理后的数据
 data/processed/*
@@ -21,3 +22,6 @@ data/processed/*
 
 # 忽略python运行文件
 __pycache__/
+
+# 忽略测试
+test/

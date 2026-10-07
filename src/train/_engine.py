@@ -11,7 +11,7 @@ from tqdm import tqdm
 from transformers import AutoModelForSequenceClassification
 from transformers.utils import logging
 
-from src.configuration import *
+from src.configuration.config import *
 
 logging.disable_progress_bar()
 

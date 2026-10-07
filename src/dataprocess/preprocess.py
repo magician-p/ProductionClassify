@@ -5,7 +5,7 @@ import json
 from datasets import ClassLabel, Features, Value, load_dataset
 from transformers import AutoTokenizer
 
-from src.configuration import *
+from src.configuration.config import *
 
 
 def preprocess():
